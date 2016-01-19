@@ -1,0 +1,1220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'express' ]
+2 info using npm@3.5.2
+3 info using node@v0.10.36
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express
+8 silly fetchNamedPackageData express
+9 silly mapToRegistry name express
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+12 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express
+13 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 15:15:59
+16 verbose request id c35e32eff5639eec
+17 verbose etag 4afcfff75ff01337b04d652a1c827a680c6b722b
+18 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express
+19 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express
+20 verbose headers { server: 'Artifactory/4.3.2',
+20 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+20 verbose headers   etag: 'cd17deb39cc219e5cbcca9b9e20cd8d040a46f1a',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'transfer-encoding': 'chunked',
+20 verbose headers   date: 'Wed, 13 Jan 2016 09:46:01 GMT' }
+21 silly get cb [ 200,
+21 silly get   { server: 'Artifactory/4.3.2',
+21 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+21 silly get     etag: 'cd17deb39cc219e5cbcca9b9e20cd8d040a46f1a',
+21 silly get     'content-type': 'application/json',
+21 silly get     'transfer-encoding': 'chunked',
+21 silly get     date: 'Wed, 13 Jan 2016 09:46:01 GMT' } ]
+22 verbose get saving express to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/express/.cache.json
+23 silly install normalizeTree
+24 silly loadCurrentTree Finishing
+25 silly loadIdealTree Starting
+26 silly install loadIdealTree
+27 silly cloneCurrentTree Starting
+28 silly install cloneCurrentTreeToIdealTree
+29 silly cloneCurrentTree Finishing
+30 silly loadShrinkwrap Starting
+31 silly install loadShrinkwrap
+32 silly loadShrinkwrap Finishing
+33 silly loadAllDepsIntoIdealTree Starting
+34 silly install loadAllDepsIntoIdealTree
+35 silly resolveWithNewModule express@4.13.3 checking installable status
+36 silly cache add args [ 'express', null ]
+37 verbose cache add spec express
+38 silly cache add parsed spec { raw: 'express',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'express',
+38 silly cache add   rawSpec: '',
+38 silly cache add   spec: 'latest',
+38 silly cache add   type: 'tag' }
+39 silly addNamed express@latest
+40 verbose addNamed "latest" is being treated as a dist-tag for express
+41 info addNameTag [ 'express', 'latest' ]
+42 silly mapToRegistry name express
+43 silly mapToRegistry using default registry
+44 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+45 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express
+46 verbose addNameTag registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express not in flight; fetching
+47 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/express not expired, no request
+48 silly addNameTag next cb for express with tag latest
+49 silly addNamed express@4.13.3
+50 verbose addNamed "4.13.3" is a plain semver version for express
+51 silly cache afterAdd express@4.13.3
+52 verbose afterAdd /Users/kesarwat/.npm/express/4.13.3/package/package.json not in flight; writing
+53 verbose afterAdd /Users/kesarwat/.npm/express/4.13.3/package/package.json written
+54 silly fetchNamedPackageData accepts
+55 silly mapToRegistry name accepts
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+58 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts
+59 silly fetchNamedPackageData array-flatten
+60 silly mapToRegistry name array-flatten
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+63 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten
+64 silly fetchNamedPackageData content-disposition
+65 silly mapToRegistry name content-disposition
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+68 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition
+69 silly fetchNamedPackageData content-type
+70 silly mapToRegistry name content-type
+71 silly mapToRegistry using default registry
+72 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+73 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type
+74 silly fetchNamedPackageData cookie
+75 silly mapToRegistry name cookie
+76 silly mapToRegistry using default registry
+77 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+78 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie
+79 silly fetchNamedPackageData cookie-signature
+80 silly mapToRegistry name cookie-signature
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+83 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature
+84 silly fetchNamedPackageData depd
+85 silly mapToRegistry name depd
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+88 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd
+89 silly fetchNamedPackageData etag
+90 silly mapToRegistry name etag
+91 silly mapToRegistry using default registry
+92 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+93 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag
+94 silly fetchNamedPackageData fresh
+95 silly mapToRegistry name fresh
+96 silly mapToRegistry using default registry
+97 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+98 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh
+99 silly fetchNamedPackageData merge-descriptors
+100 silly mapToRegistry name merge-descriptors
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+103 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors
+104 silly fetchNamedPackageData methods
+105 silly mapToRegistry name methods
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+108 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods
+109 silly fetchNamedPackageData path-to-regexp
+110 silly mapToRegistry name path-to-regexp
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+113 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp
+114 silly fetchNamedPackageData proxy-addr
+115 silly mapToRegistry name proxy-addr
+116 silly mapToRegistry using default registry
+117 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+118 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr
+119 silly fetchNamedPackageData qs
+120 silly mapToRegistry name qs
+121 silly mapToRegistry using default registry
+122 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+123 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs
+124 silly fetchNamedPackageData range-parser
+125 silly mapToRegistry name range-parser
+126 silly mapToRegistry using default registry
+127 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+128 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser
+129 silly fetchNamedPackageData send
+130 silly mapToRegistry name send
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+133 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send
+134 silly fetchNamedPackageData serve-static
+135 silly mapToRegistry name serve-static
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+138 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static
+139 silly fetchNamedPackageData type-is
+140 silly mapToRegistry name type-is
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+143 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is
+144 silly fetchNamedPackageData vary
+145 silly mapToRegistry name vary
+146 silly mapToRegistry using default registry
+147 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+148 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary
+149 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 15:16:05
+152 verbose etag 9e98f365b1eef70d6cd96ff0bf46c4376142a577
+153 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten
+154 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 15:16:05
+157 verbose etag 37aa004a9db62c6f57869956fe4495901d3ed3af
+158 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition
+159 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 15:16:05
+162 verbose etag cac6266676b4c8e26b1b2b9a37cc50b37c2ad419
+163 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type
+164 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts
+165 verbose request no auth needed
+166 info attempt registry request try #1 at 15:16:05
+167 verbose etag 9b1dc9cf35cfe2f94af7433306603cd7228f9c56
+168 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts
+169 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie
+170 verbose request no auth needed
+171 info attempt registry request try #1 at 15:16:05
+172 verbose etag 9d88c1e7f2f2d6f1db50fd3bbf832412fd1b9784
+173 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie
+174 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 15:16:05
+177 verbose etag 34db5d7fb9fe8cbf129dfa0506080a093348e1b0
+178 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature
+179 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag
+180 verbose request no auth needed
+181 info attempt registry request try #1 at 15:16:05
+182 verbose etag ee6101c22319a27c0d2a7f86e7e9fe95c6089284
+183 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag
+184 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 15:16:05
+187 verbose etag 03ad4a0f72827c0bde1897ae6f64718c3a9b38ca
+188 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd
+189 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh
+190 verbose request no auth needed
+191 info attempt registry request try #1 at 15:16:05
+192 verbose etag b8751eb86ac6b00ceca147e55926cf8efd940ab4
+193 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh
+194 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods
+195 verbose request no auth needed
+196 info attempt registry request try #1 at 15:16:05
+197 verbose etag 410dc6541e031d11ad31cc27ff3ac223f5eb038c
+198 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods
+199 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors
+200 verbose request no auth needed
+201 info attempt registry request try #1 at 15:16:05
+202 verbose etag e4b7edb7dd3447fdf3f6a81be43ba54350e490f5
+203 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors
+204 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr
+205 verbose request no auth needed
+206 info attempt registry request try #1 at 15:16:05
+207 verbose etag 4ff5387e67690f689258f72a9032c716fd709c5e
+208 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr
+209 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp
+210 verbose request no auth needed
+211 info attempt registry request try #1 at 15:16:05
+212 verbose etag b7de5561a9191e89728c20485b3d706c61868e60
+213 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp
+214 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser
+215 verbose request no auth needed
+216 info attempt registry request try #1 at 15:16:05
+217 verbose etag dcca0168774a47605c1d3577fe1d9569572aed09
+218 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser
+219 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs
+220 verbose request no auth needed
+221 info attempt registry request try #1 at 15:16:05
+222 verbose etag 52b19e2a40a13c24b2e14e087ebf0bc37e1977ff
+223 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs
+224 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send
+225 verbose request no auth needed
+226 info attempt registry request try #1 at 15:16:05
+227 verbose etag 4ef7c27e2f48b2017d13c1c07a38b1077ce247a4
+228 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send
+229 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary
+230 verbose request no auth needed
+231 info attempt registry request try #1 at 15:16:05
+232 verbose etag 6420645e3e43aeece5df3871dde4e0126047b85d
+233 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary
+234 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static
+235 verbose request no auth needed
+236 info attempt registry request try #1 at 15:16:05
+237 verbose etag aa81005d1854eeb9a8f1d6ad6892a02c1cbc82a9
+238 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static
+239 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is
+240 verbose request no auth needed
+241 info attempt registry request try #1 at 15:16:05
+242 verbose etag 9bd2804c9c5f19e5174f5749ef13bd9252871548
+243 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is
+244 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten
+245 verbose headers { server: 'Artifactory/4.3.2',
+245 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+245 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+246 silly get cb [ 304,
+246 silly get   { server: 'Artifactory/4.3.2',
+246 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+246 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+247 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten from cache
+248 verbose get saving array-flatten to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten/.cache.json
+249 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type
+250 verbose headers { server: 'Artifactory/4.3.2',
+250 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+250 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+251 silly get cb [ 304,
+251 silly get   { server: 'Artifactory/4.3.2',
+251 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+251 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+252 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type from cache
+253 verbose get saving content-type to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type/.cache.json
+254 silly resolveWithNewModule array-flatten@1.1.1 checking installable status
+255 silly cache add args [ 'array-flatten@1.1.1', null ]
+256 verbose cache add spec array-flatten@1.1.1
+257 silly cache add parsed spec { raw: 'array-flatten@1.1.1',
+257 silly cache add   scope: null,
+257 silly cache add   name: 'array-flatten',
+257 silly cache add   rawSpec: '1.1.1',
+257 silly cache add   spec: '1.1.1',
+257 silly cache add   type: 'version' }
+258 silly addNamed array-flatten@1.1.1
+259 verbose addNamed "1.1.1" is a plain semver version for array-flatten
+260 silly mapToRegistry name array-flatten
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+263 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten
+264 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten not in flight; fetching
+265 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/array-flatten not expired, no request
+266 silly resolveWithNewModule content-type@1.0.1 checking installable status
+267 silly cache add args [ 'content-type@~1.0.1', null ]
+268 verbose cache add spec content-type@~1.0.1
+269 silly cache add parsed spec { raw: 'content-type@~1.0.1',
+269 silly cache add   scope: null,
+269 silly cache add   name: 'content-type',
+269 silly cache add   rawSpec: '~1.0.1',
+269 silly cache add   spec: '>=1.0.1 <1.1.0',
+269 silly cache add   type: 'range' }
+270 silly addNamed content-type@>=1.0.1 <1.1.0
+271 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for content-type
+272 silly addNameRange { name: 'content-type', range: '>=1.0.1 <1.1.0', hasData: false }
+273 silly mapToRegistry name content-type
+274 silly mapToRegistry using default registry
+275 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+276 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type
+277 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type not in flight; fetching
+278 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-type not expired, no request
+279 silly addNameRange number 2 { name: 'content-type', range: '>=1.0.1 <1.1.0', hasData: true }
+280 silly addNameRange versions [ 'content-type', [ '1.0.0', '1.0.1', '0.0.1' ] ]
+281 silly addNamed content-type@1.0.1
+282 verbose addNamed "1.0.1" is a plain semver version for content-type
+283 silly cache afterAdd array-flatten@1.1.1
+284 verbose afterAdd /Users/kesarwat/.npm/array-flatten/1.1.1/package/package.json not in flight; writing
+285 silly cache afterAdd content-type@1.0.1
+286 verbose afterAdd /Users/kesarwat/.npm/content-type/1.0.1/package/package.json not in flight; writing
+287 verbose afterAdd /Users/kesarwat/.npm/array-flatten/1.1.1/package/package.json written
+288 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts
+289 verbose headers { server: 'Artifactory/4.3.2',
+289 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+289 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+290 silly get cb [ 304,
+290 silly get   { server: 'Artifactory/4.3.2',
+290 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+290 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+291 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts from cache
+292 verbose get saving accepts to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts/.cache.json
+293 verbose afterAdd /Users/kesarwat/.npm/content-type/1.0.1/package/package.json written
+294 silly resolveWithNewModule accepts@1.2.13 checking installable status
+295 silly cache add args [ 'accepts@~1.2.12', null ]
+296 verbose cache add spec accepts@~1.2.12
+297 silly cache add parsed spec { raw: 'accepts@~1.2.12',
+297 silly cache add   scope: null,
+297 silly cache add   name: 'accepts',
+297 silly cache add   rawSpec: '~1.2.12',
+297 silly cache add   spec: '>=1.2.12 <1.3.0',
+297 silly cache add   type: 'range' }
+298 silly addNamed accepts@>=1.2.12 <1.3.0
+299 verbose addNamed ">=1.2.12 <1.3.0" is a valid semver range for accepts
+300 silly addNameRange { name: 'accepts', range: '>=1.2.12 <1.3.0', hasData: false }
+301 silly mapToRegistry name accepts
+302 silly mapToRegistry using default registry
+303 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+304 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts
+305 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts not in flight; fetching
+306 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/accepts not expired, no request
+307 silly addNameRange number 2 { name: 'accepts', range: '>=1.2.12 <1.3.0', hasData: true }
+308 silly addNameRange versions [ 'accepts',
+308 silly addNameRange   [ '1.2.11',
+308 silly addNameRange     '1.2.10',
+308 silly addNameRange     '1.2.13',
+308 silly addNameRange     '1.2.12',
+308 silly addNameRange     '1.2.9',
+308 silly addNameRange     '1.0.3',
+308 silly addNameRange     '1.1.2',
+308 silly addNameRange     '1.2.1',
+308 silly addNameRange     '1.3.0',
+308 silly addNameRange     '1.0.4',
+308 silly addNameRange     '1.1.3',
+308 silly addNameRange     '1.2.2',
+308 silly addNameRange     '1.0.5',
+308 silly addNameRange     '1.1.4',
+308 silly addNameRange     '1.2.3',
+308 silly addNameRange     '1.0.6',
+308 silly addNameRange     '1.2.4',
+308 silly addNameRange     '1.0.7',
+308 silly addNameRange     '1.2.5',
+308 silly addNameRange     '1.2.6',
+308 silly addNameRange     '1.2.7',
+308 silly addNameRange     '1.2.8',
+308 silly addNameRange     '1.0.0',
+308 silly addNameRange     '1.0.1',
+308 silly addNameRange     '1.1.0',
+308 silly addNameRange     '1.0.2',
+308 silly addNameRange     '1.1.1',
+308 silly addNameRange     '1.2.0' ] ]
+309 silly addNamed accepts@1.2.13
+310 verbose addNamed "1.2.13" is a plain semver version for accepts
+311 silly cache afterAdd accepts@1.2.13
+312 verbose afterAdd /Users/kesarwat/.npm/accepts/1.2.13/package/package.json not in flight; writing
+313 verbose afterAdd /Users/kesarwat/.npm/accepts/1.2.13/package/package.json written
+314 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition
+315 verbose headers { server: 'Artifactory/4.3.2',
+315 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+315 verbose headers   etag: '56016146a698d38d3aa52e81234f86e7e7da6797',
+315 verbose headers   'content-type': 'application/json',
+315 verbose headers   'transfer-encoding': 'chunked',
+315 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+316 silly get cb [ 200,
+316 silly get   { server: 'Artifactory/4.3.2',
+316 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+316 silly get     etag: '56016146a698d38d3aa52e81234f86e7e7da6797',
+316 silly get     'content-type': 'application/json',
+316 silly get     'transfer-encoding': 'chunked',
+316 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+317 verbose get saving content-disposition to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition/.cache.json
+318 silly resolveWithNewModule content-disposition@0.5.0 checking installable status
+319 silly cache add args [ 'content-disposition@0.5.0', null ]
+320 verbose cache add spec content-disposition@0.5.0
+321 silly cache add parsed spec { raw: 'content-disposition@0.5.0',
+321 silly cache add   scope: null,
+321 silly cache add   name: 'content-disposition',
+321 silly cache add   rawSpec: '0.5.0',
+321 silly cache add   spec: '0.5.0',
+321 silly cache add   type: 'version' }
+322 silly addNamed content-disposition@0.5.0
+323 verbose addNamed "0.5.0" is a plain semver version for content-disposition
+324 silly mapToRegistry name content-disposition
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+327 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition
+328 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition not in flight; fetching
+329 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/content-disposition not expired, no request
+330 silly cache afterAdd content-disposition@0.5.0
+331 verbose afterAdd /Users/kesarwat/.npm/content-disposition/0.5.0/package/package.json not in flight; writing
+332 verbose afterAdd /Users/kesarwat/.npm/content-disposition/0.5.0/package/package.json written
+333 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd
+334 verbose headers { server: 'Artifactory/4.3.2',
+334 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+334 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+335 silly get cb [ 304,
+335 silly get   { server: 'Artifactory/4.3.2',
+335 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+335 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+336 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd from cache
+337 verbose get saving depd to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd/.cache.json
+338 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag
+339 verbose headers { server: 'Artifactory/4.3.2',
+339 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+339 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+340 silly get cb [ 304,
+340 silly get   { server: 'Artifactory/4.3.2',
+340 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+340 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+341 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag from cache
+342 verbose get saving etag to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag/.cache.json
+343 silly resolveWithNewModule depd@1.0.1 checking installable status
+344 silly cache add args [ 'depd@~1.0.1', null ]
+345 verbose cache add spec depd@~1.0.1
+346 silly cache add parsed spec { raw: 'depd@~1.0.1',
+346 silly cache add   scope: null,
+346 silly cache add   name: 'depd',
+346 silly cache add   rawSpec: '~1.0.1',
+346 silly cache add   spec: '>=1.0.1 <1.1.0',
+346 silly cache add   type: 'range' }
+347 silly addNamed depd@>=1.0.1 <1.1.0
+348 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for depd
+349 silly addNameRange { name: 'depd', range: '>=1.0.1 <1.1.0', hasData: false }
+350 silly mapToRegistry name depd
+351 silly mapToRegistry using default registry
+352 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+353 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd
+354 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd not in flight; fetching
+355 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/depd not expired, no request
+356 silly addNameRange number 2 { name: 'depd', range: '>=1.0.1 <1.1.0', hasData: true }
+357 silly addNameRange versions [ 'depd',
+357 silly addNameRange   [ '0.4.2',
+357 silly addNameRange     '0.4.3',
+357 silly addNameRange     '0.4.0',
+357 silly addNameRange     '0.4.1',
+357 silly addNameRange     '0.4.4',
+357 silly addNameRange     '0.4.5',
+357 silly addNameRange     '0.2.0',
+357 silly addNameRange     '0.3.0',
+357 silly addNameRange     '0.0.0',
+357 silly addNameRange     '0.0.1',
+357 silly addNameRange     '0.1.0',
+357 silly addNameRange     '1.0.0',
+357 silly addNameRange     '1.0.1',
+357 silly addNameRange     '1.1.0' ] ]
+358 silly addNamed depd@1.0.1
+359 verbose addNamed "1.0.1" is a plain semver version for depd
+360 silly cache afterAdd depd@1.0.1
+361 verbose afterAdd /Users/kesarwat/.npm/depd/1.0.1/package/package.json not in flight; writing
+362 silly resolveWithNewModule etag@1.7.0 checking installable status
+363 silly cache add args [ 'etag@~1.7.0', null ]
+364 verbose cache add spec etag@~1.7.0
+365 silly cache add parsed spec { raw: 'etag@~1.7.0',
+365 silly cache add   scope: null,
+365 silly cache add   name: 'etag',
+365 silly cache add   rawSpec: '~1.7.0',
+365 silly cache add   spec: '>=1.7.0 <1.8.0',
+365 silly cache add   type: 'range' }
+366 silly addNamed etag@>=1.7.0 <1.8.0
+367 verbose addNamed ">=1.7.0 <1.8.0" is a valid semver range for etag
+368 silly addNameRange { name: 'etag', range: '>=1.7.0 <1.8.0', hasData: false }
+369 silly mapToRegistry name etag
+370 silly mapToRegistry using default registry
+371 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+372 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag
+373 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag not in flight; fetching
+374 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/etag not expired, no request
+375 silly addNameRange number 2 { name: 'etag', range: '>=1.7.0 <1.8.0', hasData: true }
+376 silly addNameRange versions [ 'etag',
+376 silly addNameRange   [ '1.2.1',
+376 silly addNameRange     '1.3.0',
+376 silly addNameRange     '1.3.1',
+376 silly addNameRange     '1.4.0',
+376 silly addNameRange     '1.5.0',
+376 silly addNameRange     '1.5.1',
+376 silly addNameRange     '1.6.0',
+376 silly addNameRange     '1.7.0',
+376 silly addNameRange     '1.0.0',
+376 silly addNameRange     '1.0.1',
+376 silly addNameRange     '1.1.0',
+376 silly addNameRange     '1.2.0' ] ]
+377 silly addNamed etag@1.7.0
+378 verbose addNamed "1.7.0" is a plain semver version for etag
+379 silly cache afterAdd etag@1.7.0
+380 verbose afterAdd /Users/kesarwat/.npm/etag/1.7.0/package/package.json not in flight; writing
+381 verbose afterAdd /Users/kesarwat/.npm/etag/1.7.0/package/package.json written
+382 verbose afterAdd /Users/kesarwat/.npm/depd/1.0.1/package/package.json written
+383 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie
+384 verbose headers { server: 'Artifactory/4.3.2',
+384 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+384 verbose headers   etag: 'b8a6a3ef5d61d18af9cddf47eef54bd4fcb23cad',
+384 verbose headers   'content-type': 'application/json',
+384 verbose headers   'transfer-encoding': 'chunked',
+384 verbose headers   date: 'Wed, 13 Jan 2016 09:46:05 GMT' }
+385 silly get cb [ 200,
+385 silly get   { server: 'Artifactory/4.3.2',
+385 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+385 silly get     etag: 'b8a6a3ef5d61d18af9cddf47eef54bd4fcb23cad',
+385 silly get     'content-type': 'application/json',
+385 silly get     'transfer-encoding': 'chunked',
+385 silly get     date: 'Wed, 13 Jan 2016 09:46:05 GMT' } ]
+386 verbose get saving cookie to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie/.cache.json
+387 silly resolveWithNewModule cookie@0.1.3 checking installable status
+388 silly cache add args [ 'cookie@0.1.3', null ]
+389 verbose cache add spec cookie@0.1.3
+390 silly cache add parsed spec { raw: 'cookie@0.1.3',
+390 silly cache add   scope: null,
+390 silly cache add   name: 'cookie',
+390 silly cache add   rawSpec: '0.1.3',
+390 silly cache add   spec: '0.1.3',
+390 silly cache add   type: 'version' }
+391 silly addNamed cookie@0.1.3
+392 verbose addNamed "0.1.3" is a plain semver version for cookie
+393 silly mapToRegistry name cookie
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+396 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie
+397 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie not in flight; fetching
+398 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie not expired, no request
+399 silly cache afterAdd cookie@0.1.3
+400 verbose afterAdd /Users/kesarwat/.npm/cookie/0.1.3/package/package.json not in flight; writing
+401 verbose afterAdd /Users/kesarwat/.npm/cookie/0.1.3/package/package.json written
+402 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors
+403 verbose headers { server: 'Artifactory/4.3.2',
+403 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+403 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+404 silly get cb [ 304,
+404 silly get   { server: 'Artifactory/4.3.2',
+404 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+404 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+405 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors from cache
+406 verbose get saving merge-descriptors to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors/.cache.json
+407 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods
+408 verbose headers { server: 'Artifactory/4.3.2',
+408 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+408 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+409 silly get cb [ 304,
+409 silly get   { server: 'Artifactory/4.3.2',
+409 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+409 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+410 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods from cache
+411 verbose get saving methods to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods/.cache.json
+412 silly resolveWithNewModule merge-descriptors@1.0.0 checking installable status
+413 silly cache add args [ 'merge-descriptors@1.0.0', null ]
+414 verbose cache add spec merge-descriptors@1.0.0
+415 silly cache add parsed spec { raw: 'merge-descriptors@1.0.0',
+415 silly cache add   scope: null,
+415 silly cache add   name: 'merge-descriptors',
+415 silly cache add   rawSpec: '1.0.0',
+415 silly cache add   spec: '1.0.0',
+415 silly cache add   type: 'version' }
+416 silly addNamed merge-descriptors@1.0.0
+417 verbose addNamed "1.0.0" is a plain semver version for merge-descriptors
+418 silly mapToRegistry name merge-descriptors
+419 silly mapToRegistry using default registry
+420 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+421 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors
+422 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors not in flight; fetching
+423 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/merge-descriptors not expired, no request
+424 silly cache afterAdd merge-descriptors@1.0.0
+425 verbose afterAdd /Users/kesarwat/.npm/merge-descriptors/1.0.0/package/package.json not in flight; writing
+426 silly resolveWithNewModule methods@1.1.1 checking installable status
+427 silly cache add args [ 'methods@~1.1.1', null ]
+428 verbose cache add spec methods@~1.1.1
+429 silly cache add parsed spec { raw: 'methods@~1.1.1',
+429 silly cache add   scope: null,
+429 silly cache add   name: 'methods',
+429 silly cache add   rawSpec: '~1.1.1',
+429 silly cache add   spec: '>=1.1.1 <1.2.0',
+429 silly cache add   type: 'range' }
+430 silly addNamed methods@>=1.1.1 <1.2.0
+431 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for methods
+432 silly addNameRange { name: 'methods', range: '>=1.1.1 <1.2.0', hasData: false }
+433 silly mapToRegistry name methods
+434 silly mapToRegistry using default registry
+435 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+436 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods
+437 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods not in flight; fetching
+438 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/methods not expired, no request
+439 silly addNameRange number 2 { name: 'methods', range: '>=1.1.1 <1.2.0', hasData: true }
+440 silly addNameRange versions [ 'methods',
+440 silly addNameRange   [ '1.0.0', '1.0.1', '1.1.0', '0.0.1', '0.1.0', '1.1.1' ] ]
+441 silly addNamed methods@1.1.1
+442 verbose addNamed "1.1.1" is a plain semver version for methods
+443 silly cache afterAdd methods@1.1.1
+444 verbose afterAdd /Users/kesarwat/.npm/methods/1.1.1/package/package.json not in flight; writing
+445 verbose afterAdd /Users/kesarwat/.npm/merge-descriptors/1.0.0/package/package.json written
+446 verbose afterAdd /Users/kesarwat/.npm/methods/1.1.1/package/package.json written
+447 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh
+448 verbose headers { server: 'Artifactory/4.3.2',
+448 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+448 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+449 silly get cb [ 304,
+449 silly get   { server: 'Artifactory/4.3.2',
+449 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+449 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+450 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh from cache
+451 verbose get saving fresh to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh/.cache.json
+452 silly resolveWithNewModule fresh@0.3.0 checking installable status
+453 silly cache add args [ 'fresh@0.3.0', null ]
+454 verbose cache add spec fresh@0.3.0
+455 silly cache add parsed spec { raw: 'fresh@0.3.0',
+455 silly cache add   scope: null,
+455 silly cache add   name: 'fresh',
+455 silly cache add   rawSpec: '0.3.0',
+455 silly cache add   spec: '0.3.0',
+455 silly cache add   type: 'version' }
+456 silly addNamed fresh@0.3.0
+457 verbose addNamed "0.3.0" is a plain semver version for fresh
+458 silly mapToRegistry name fresh
+459 silly mapToRegistry using default registry
+460 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+461 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh
+462 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh not in flight; fetching
+463 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/fresh not expired, no request
+464 silly cache afterAdd fresh@0.3.0
+465 verbose afterAdd /Users/kesarwat/.npm/fresh/0.3.0/package/package.json not in flight; writing
+466 verbose afterAdd /Users/kesarwat/.npm/fresh/0.3.0/package/package.json written
+467 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr
+468 verbose headers { server: 'Artifactory/4.3.2',
+468 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+468 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+469 silly get cb [ 304,
+469 silly get   { server: 'Artifactory/4.3.2',
+469 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+469 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+470 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr from cache
+471 verbose get saving proxy-addr to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr/.cache.json
+472 silly resolveWithNewModule proxy-addr@1.0.10 checking installable status
+473 silly cache add args [ 'proxy-addr@~1.0.8', null ]
+474 verbose cache add spec proxy-addr@~1.0.8
+475 silly cache add parsed spec { raw: 'proxy-addr@~1.0.8',
+475 silly cache add   scope: null,
+475 silly cache add   name: 'proxy-addr',
+475 silly cache add   rawSpec: '~1.0.8',
+475 silly cache add   spec: '>=1.0.8 <1.1.0',
+475 silly cache add   type: 'range' }
+476 silly addNamed proxy-addr@>=1.0.8 <1.1.0
+477 verbose addNamed ">=1.0.8 <1.1.0" is a valid semver range for proxy-addr
+478 silly addNameRange { name: 'proxy-addr', range: '>=1.0.8 <1.1.0', hasData: false }
+479 silly mapToRegistry name proxy-addr
+480 silly mapToRegistry using default registry
+481 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+482 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr
+483 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr not in flight; fetching
+484 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/proxy-addr not expired, no request
+485 silly addNameRange number 2 { name: 'proxy-addr', range: '>=1.0.8 <1.1.0', hasData: true }
+486 silly addNameRange versions [ 'proxy-addr',
+486 silly addNameRange   [ '1.0.10',
+486 silly addNameRange     '0.0.0',
+486 silly addNameRange     '0.0.1',
+486 silly addNameRange     '1.0.3',
+486 silly addNameRange     '1.0.4',
+486 silly addNameRange     '1.0.5',
+486 silly addNameRange     '1.0.6',
+486 silly addNameRange     '1.0.7',
+486 silly addNameRange     '1.0.8',
+486 silly addNameRange     '1.0.9',
+486 silly addNameRange     '1.0.0',
+486 silly addNameRange     '1.0.1',
+486 silly addNameRange     '1.0.2' ] ]
+487 silly addNamed proxy-addr@1.0.10
+488 verbose addNamed "1.0.10" is a plain semver version for proxy-addr
+489 silly cache afterAdd proxy-addr@1.0.10
+490 verbose afterAdd /Users/kesarwat/.npm/proxy-addr/1.0.10/package/package.json not in flight; writing
+491 verbose afterAdd /Users/kesarwat/.npm/proxy-addr/1.0.10/package/package.json written
+492 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser
+493 verbose headers { server: 'Artifactory/4.3.2',
+493 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+493 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+494 silly get cb [ 304,
+494 silly get   { server: 'Artifactory/4.3.2',
+494 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+494 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+495 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser from cache
+496 verbose get saving range-parser to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser/.cache.json
+497 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature
+498 verbose headers { server: 'Artifactory/4.3.2',
+498 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+498 verbose headers   etag: 'dcfd3f391ac05e1cbfe1e55e41c34c617f96e841',
+498 verbose headers   'content-type': 'application/json',
+498 verbose headers   'transfer-encoding': 'chunked',
+498 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+499 silly get cb [ 200,
+499 silly get   { server: 'Artifactory/4.3.2',
+499 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+499 silly get     etag: 'dcfd3f391ac05e1cbfe1e55e41c34c617f96e841',
+499 silly get     'content-type': 'application/json',
+499 silly get     'transfer-encoding': 'chunked',
+499 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+500 verbose get saving cookie-signature to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature/.cache.json
+501 silly resolveWithNewModule range-parser@1.0.3 checking installable status
+502 silly cache add args [ 'range-parser@~1.0.2', null ]
+503 verbose cache add spec range-parser@~1.0.2
+504 silly cache add parsed spec { raw: 'range-parser@~1.0.2',
+504 silly cache add   scope: null,
+504 silly cache add   name: 'range-parser',
+504 silly cache add   rawSpec: '~1.0.2',
+504 silly cache add   spec: '>=1.0.2 <1.1.0',
+504 silly cache add   type: 'range' }
+505 silly addNamed range-parser@>=1.0.2 <1.1.0
+506 verbose addNamed ">=1.0.2 <1.1.0" is a valid semver range for range-parser
+507 silly addNameRange { name: 'range-parser', range: '>=1.0.2 <1.1.0', hasData: false }
+508 silly mapToRegistry name range-parser
+509 silly mapToRegistry using default registry
+510 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+511 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser
+512 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser not in flight; fetching
+513 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/range-parser not expired, no request
+514 silly addNameRange number 2 { name: 'range-parser', range: '>=1.0.2 <1.1.0', hasData: true }
+515 silly addNameRange versions [ 'range-parser',
+515 silly addNameRange   [ '1.0.3',
+515 silly addNameRange     '0.0.4',
+515 silly addNameRange     '0.0.2',
+515 silly addNameRange     '0.0.3',
+515 silly addNameRange     '1.0.0',
+515 silly addNameRange     '1.0.1',
+515 silly addNameRange     '0.0.1',
+515 silly addNameRange     '1.0.2' ] ]
+516 silly addNamed range-parser@1.0.3
+517 verbose addNamed "1.0.3" is a plain semver version for range-parser
+518 silly cache afterAdd range-parser@1.0.3
+519 verbose afterAdd /Users/kesarwat/.npm/range-parser/1.0.3/package/package.json not in flight; writing
+520 silly resolveWithNewModule cookie-signature@1.0.6 checking installable status
+521 silly cache add args [ 'cookie-signature@1.0.6', null ]
+522 verbose cache add spec cookie-signature@1.0.6
+523 silly cache add parsed spec { raw: 'cookie-signature@1.0.6',
+523 silly cache add   scope: null,
+523 silly cache add   name: 'cookie-signature',
+523 silly cache add   rawSpec: '1.0.6',
+523 silly cache add   spec: '1.0.6',
+523 silly cache add   type: 'version' }
+524 silly addNamed cookie-signature@1.0.6
+525 verbose addNamed "1.0.6" is a plain semver version for cookie-signature
+526 silly mapToRegistry name cookie-signature
+527 silly mapToRegistry using default registry
+528 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+529 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature
+530 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature not in flight; fetching
+531 verbose afterAdd /Users/kesarwat/.npm/range-parser/1.0.3/package/package.json written
+532 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/cookie-signature not expired, no request
+533 silly cache afterAdd cookie-signature@1.0.6
+534 verbose afterAdd /Users/kesarwat/.npm/cookie-signature/1.0.6/package/package.json not in flight; writing
+535 verbose afterAdd /Users/kesarwat/.npm/cookie-signature/1.0.6/package/package.json written
+536 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary
+537 verbose headers { server: 'Artifactory/4.3.2',
+537 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+537 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+538 silly get cb [ 304,
+538 silly get   { server: 'Artifactory/4.3.2',
+538 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+538 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+539 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary from cache
+540 verbose get saving vary to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary/.cache.json
+541 silly resolveWithNewModule vary@1.0.1 checking installable status
+542 silly cache add args [ 'vary@~1.0.1', null ]
+543 verbose cache add spec vary@~1.0.1
+544 silly cache add parsed spec { raw: 'vary@~1.0.1',
+544 silly cache add   scope: null,
+544 silly cache add   name: 'vary',
+544 silly cache add   rawSpec: '~1.0.1',
+544 silly cache add   spec: '>=1.0.1 <1.1.0',
+544 silly cache add   type: 'range' }
+545 silly addNamed vary@>=1.0.1 <1.1.0
+546 verbose addNamed ">=1.0.1 <1.1.0" is a valid semver range for vary
+547 silly addNameRange { name: 'vary', range: '>=1.0.1 <1.1.0', hasData: false }
+548 silly mapToRegistry name vary
+549 silly mapToRegistry using default registry
+550 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+551 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary
+552 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary not in flight; fetching
+553 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/vary not expired, no request
+554 silly addNameRange number 2 { name: 'vary', range: '>=1.0.1 <1.1.0', hasData: true }
+555 silly addNameRange versions [ 'vary', [ '1.0.0', '0.0.0', '1.0.1', '1.1.0', '0.1.0' ] ]
+556 silly addNamed vary@1.0.1
+557 verbose addNamed "1.0.1" is a plain semver version for vary
+558 silly cache afterAdd vary@1.0.1
+559 verbose afterAdd /Users/kesarwat/.npm/vary/1.0.1/package/package.json not in flight; writing
+560 verbose afterAdd /Users/kesarwat/.npm/vary/1.0.1/package/package.json written
+561 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp
+562 verbose headers { server: 'Artifactory/4.3.2',
+562 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+562 verbose headers   etag: '234b2eda0b09e4547d92736576e42939eaac85c1',
+562 verbose headers   'content-type': 'application/json',
+562 verbose headers   'transfer-encoding': 'chunked',
+562 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+563 silly get cb [ 200,
+563 silly get   { server: 'Artifactory/4.3.2',
+563 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+563 silly get     etag: '234b2eda0b09e4547d92736576e42939eaac85c1',
+563 silly get     'content-type': 'application/json',
+563 silly get     'transfer-encoding': 'chunked',
+563 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+564 verbose get saving path-to-regexp to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp/.cache.json
+565 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send
+566 verbose headers { server: 'Artifactory/4.3.2',
+566 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+566 verbose headers   etag: '685a4a3e3f23ed11d5a70308043571284f3c91e0',
+566 verbose headers   'content-type': 'application/json',
+566 verbose headers   'transfer-encoding': 'chunked',
+566 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+567 silly get cb [ 200,
+567 silly get   { server: 'Artifactory/4.3.2',
+567 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+567 silly get     etag: '685a4a3e3f23ed11d5a70308043571284f3c91e0',
+567 silly get     'content-type': 'application/json',
+567 silly get     'transfer-encoding': 'chunked',
+567 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+568 verbose get saving send to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/send/.cache.json
+569 silly resolveWithNewModule path-to-regexp@0.1.7 checking installable status
+570 silly cache add args [ 'path-to-regexp@0.1.7', null ]
+571 verbose cache add spec path-to-regexp@0.1.7
+572 silly cache add parsed spec { raw: 'path-to-regexp@0.1.7',
+572 silly cache add   scope: null,
+572 silly cache add   name: 'path-to-regexp',
+572 silly cache add   rawSpec: '0.1.7',
+572 silly cache add   spec: '0.1.7',
+572 silly cache add   type: 'version' }
+573 silly addNamed path-to-regexp@0.1.7
+574 verbose addNamed "0.1.7" is a plain semver version for path-to-regexp
+575 silly mapToRegistry name path-to-regexp
+576 silly mapToRegistry using default registry
+577 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+578 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp
+579 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp not in flight; fetching
+580 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/path-to-regexp not expired, no request
+581 silly resolveWithNewModule send@0.13.0 checking installable status
+582 silly cache add args [ 'send@0.13.0', null ]
+583 verbose cache add spec send@0.13.0
+584 silly cache add parsed spec { raw: 'send@0.13.0',
+584 silly cache add   scope: null,
+584 silly cache add   name: 'send',
+584 silly cache add   rawSpec: '0.13.0',
+584 silly cache add   spec: '0.13.0',
+584 silly cache add   type: 'version' }
+585 silly addNamed send@0.13.0
+586 verbose addNamed "0.13.0" is a plain semver version for send
+587 silly mapToRegistry name send
+588 silly mapToRegistry using default registry
+589 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+590 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send
+591 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send not in flight; fetching
+592 silly cache afterAdd path-to-regexp@0.1.7
+593 verbose afterAdd /Users/kesarwat/.npm/path-to-regexp/0.1.7/package/package.json not in flight; writing
+594 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/send not expired, no request
+595 silly cache afterAdd send@0.13.0
+596 verbose afterAdd /Users/kesarwat/.npm/send/0.13.0/package/package.json not in flight; writing
+597 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs
+598 verbose headers { server: 'Artifactory/4.3.2',
+598 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+598 verbose headers   etag: 'c42d7afc466e383244a200e57540214af44f0d4e',
+598 verbose headers   'content-type': 'application/json',
+598 verbose headers   'transfer-encoding': 'chunked',
+598 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+599 silly get cb [ 200,
+599 silly get   { server: 'Artifactory/4.3.2',
+599 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+599 silly get     etag: 'c42d7afc466e383244a200e57540214af44f0d4e',
+599 silly get     'content-type': 'application/json',
+599 silly get     'transfer-encoding': 'chunked',
+599 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+600 verbose get saving qs to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs/.cache.json
+601 silly resolveWithNewModule qs@4.0.0 checking installable status
+602 silly cache add args [ 'qs@4.0.0', null ]
+603 verbose cache add spec qs@4.0.0
+604 silly cache add parsed spec { raw: 'qs@4.0.0',
+604 silly cache add   scope: null,
+604 silly cache add   name: 'qs',
+604 silly cache add   rawSpec: '4.0.0',
+604 silly cache add   spec: '4.0.0',
+604 silly cache add   type: 'version' }
+605 silly addNamed qs@4.0.0
+606 verbose addNamed "4.0.0" is a plain semver version for qs
+607 silly mapToRegistry name qs
+608 silly mapToRegistry using default registry
+609 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+610 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs
+611 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs not in flight; fetching
+612 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/qs not expired, no request
+613 silly cache afterAdd qs@4.0.0
+614 verbose afterAdd /Users/kesarwat/.npm/qs/4.0.0/package/package.json not in flight; writing
+615 verbose afterAdd /Users/kesarwat/.npm/path-to-regexp/0.1.7/package/package.json written
+616 verbose afterAdd /Users/kesarwat/.npm/send/0.13.0/package/package.json written
+617 verbose afterAdd /Users/kesarwat/.npm/qs/4.0.0/package/package.json written
+618 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static
+619 verbose headers { server: 'Artifactory/4.3.2',
+619 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+619 verbose headers   etag: 'ff711d2527229878d049ac094f40074e96dc7734',
+619 verbose headers   'content-type': 'application/json',
+619 verbose headers   'transfer-encoding': 'chunked',
+619 verbose headers   date: 'Wed, 13 Jan 2016 09:46:06 GMT' }
+620 silly get cb [ 200,
+620 silly get   { server: 'Artifactory/4.3.2',
+620 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+620 silly get     etag: 'ff711d2527229878d049ac094f40074e96dc7734',
+620 silly get     'content-type': 'application/json',
+620 silly get     'transfer-encoding': 'chunked',
+620 silly get     date: 'Wed, 13 Jan 2016 09:46:06 GMT' } ]
+621 verbose get saving serve-static to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static/.cache.json
+622 silly resolveWithNewModule serve-static@1.10.0 checking installable status
+623 silly cache add args [ 'serve-static@~1.10.0', null ]
+624 verbose cache add spec serve-static@~1.10.0
+625 silly cache add parsed spec { raw: 'serve-static@~1.10.0',
+625 silly cache add   scope: null,
+625 silly cache add   name: 'serve-static',
+625 silly cache add   rawSpec: '~1.10.0',
+625 silly cache add   spec: '>=1.10.0 <1.11.0',
+625 silly cache add   type: 'range' }
+626 silly addNamed serve-static@>=1.10.0 <1.11.0
+627 verbose addNamed ">=1.10.0 <1.11.0" is a valid semver range for serve-static
+628 silly addNameRange { name: 'serve-static',
+628 silly addNameRange   range: '>=1.10.0 <1.11.0',
+628 silly addNameRange   hasData: false }
+629 silly mapToRegistry name serve-static
+630 silly mapToRegistry using default registry
+631 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+632 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static
+633 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static not in flight; fetching
+634 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/serve-static not expired, no request
+635 silly addNameRange number 2 { name: 'serve-static',
+635 silly addNameRange   range: '>=1.10.0 <1.11.0',
+635 silly addNameRange   hasData: true }
+636 silly addNameRange versions [ 'serve-static',
+636 silly addNameRange   [ '1.10.0',
+636 silly addNameRange     '1.6.5',
+636 silly addNameRange     '1.9.2',
+636 silly addNameRange     '1.9.3',
+636 silly addNameRange     '1.0.3',
+636 silly addNameRange     '1.2.1',
+636 silly addNameRange     '1.3.0',
+636 silly addNameRange     '1.0.4',
+636 silly addNameRange     '1.2.2',
+636 silly addNameRange     '1.3.1',
+636 silly addNameRange     '1.4.0',
+636 silly addNameRange     '1.2.3',
+636 silly addNameRange     '1.3.2',
+636 silly addNameRange     '1.4.1',
+636 silly addNameRange     '1.5.0',
+636 silly addNameRange     '1.4.2',
+636 silly addNameRange     '1.5.1',
+636 silly addNameRange     '1.6.0',
+636 silly addNameRange     '1.4.3',
+636 silly addNameRange     '1.5.2',
+636 silly addNameRange     '1.6.1',
+636 silly addNameRange     '1.7.0',
+636 silly addNameRange     '1.4.4',
+636 silly addNameRange     '1.5.3',
+636 silly addNameRange     '1.6.2',
+636 silly addNameRange     '1.7.1',
+636 silly addNameRange     '1.8.0',
+636 silly addNameRange     '1.5.4',
+636 silly addNameRange     '1.6.3',
+636 silly addNameRange     '1.7.2',
+636 silly addNameRange     '1.8.1',
+636 silly addNameRange     '1.9.0',
+636 silly addNameRange     '1.6.4',
+636 silly addNameRange     '1.9.1',
+636 silly addNameRange     '1.0.0',
+636 silly addNameRange     '1.0.1',
+636 silly addNameRange     '1.1.0',
+636 silly addNameRange     '1.0.2',
+636 silly addNameRange     '1.2.0' ] ]
+637 silly addNamed serve-static@1.10.0
+638 verbose addNamed "1.10.0" is a plain semver version for serve-static
+639 silly cache afterAdd serve-static@1.10.0
+640 verbose afterAdd /Users/kesarwat/.npm/serve-static/1.10.0/package/package.json not in flight; writing
+641 verbose afterAdd /Users/kesarwat/.npm/serve-static/1.10.0/package/package.json written
+642 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is
+643 verbose headers { server: 'Artifactory/4.3.2',
+643 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+643 verbose headers   etag: '0fc2d30488570604c352c3673e771e8a30796e8b',
+643 verbose headers   'content-type': 'application/json',
+643 verbose headers   'transfer-encoding': 'chunked',
+643 verbose headers   date: 'Wed, 13 Jan 2016 09:46:07 GMT' }
+644 silly get cb [ 200,
+644 silly get   { server: 'Artifactory/4.3.2',
+644 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+644 silly get     etag: '0fc2d30488570604c352c3673e771e8a30796e8b',
+644 silly get     'content-type': 'application/json',
+644 silly get     'transfer-encoding': 'chunked',
+644 silly get     date: 'Wed, 13 Jan 2016 09:46:07 GMT' } ]
+645 verbose get saving type-is to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is/.cache.json
+646 silly resolveWithNewModule type-is@1.6.10 checking installable status
+647 silly cache add args [ 'type-is@~1.6.6', null ]
+648 verbose cache add spec type-is@~1.6.6
+649 silly cache add parsed spec { raw: 'type-is@~1.6.6',
+649 silly cache add   scope: null,
+649 silly cache add   name: 'type-is',
+649 silly cache add   rawSpec: '~1.6.6',
+649 silly cache add   spec: '>=1.6.6 <1.7.0',
+649 silly cache add   type: 'range' }
+650 silly addNamed type-is@>=1.6.6 <1.7.0
+651 verbose addNamed ">=1.6.6 <1.7.0" is a valid semver range for type-is
+652 silly addNameRange { name: 'type-is', range: '>=1.6.6 <1.7.0', hasData: false }
+653 silly mapToRegistry name type-is
+654 silly mapToRegistry using default registry
+655 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+656 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is
+657 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is not in flight; fetching
+658 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/type-is not expired, no request
+659 silly addNameRange number 2 { name: 'type-is', range: '>=1.6.6 <1.7.0', hasData: true }
+660 silly addNameRange versions [ 'type-is',
+660 silly addNameRange   [ '1.5.6',
+660 silly addNameRange     '1.6.5',
+660 silly addNameRange     '1.5.7',
+660 silly addNameRange     '1.6.6',
+660 silly addNameRange     '1.6.7',
+660 silly addNameRange     '1.6.10',
+660 silly addNameRange     '1.6.8',
+660 silly addNameRange     '1.6.9',
+660 silly addNameRange     '1.2.1',
+660 silly addNameRange     '1.3.0',
+660 silly addNameRange     '1.2.2',
+660 silly addNameRange     '1.3.1',
+660 silly addNameRange     '1.4.0',
+660 silly addNameRange     '1.3.2',
+660 silly addNameRange     '1.5.0',
+660 silly addNameRange     '1.5.1',
+660 silly addNameRange     '1.6.0',
+660 silly addNameRange     '1.5.2',
+660 silly addNameRange     '1.6.1',
+660 silly addNameRange     '1.5.3',
+660 silly addNameRange     '1.6.2',
+660 silly addNameRange     '1.5.4',
+660 silly addNameRange     '1.6.3',
+660 silly addNameRange     '1.5.5',
+660 silly addNameRange     '1.6.4',
+660 silly addNameRange     '1.0.0',
+660 silly addNameRange     '1.0.1',
+660 silly addNameRange     '1.1.0',
+660 silly addNameRange     '1.2.0' ] ]
+661 silly addNamed type-is@1.6.10
+662 verbose addNamed "1.6.10" is a plain semver version for type-is
+663 silly cache afterAdd type-is@1.6.10
+664 verbose afterAdd /Users/kesarwat/.npm/type-is/1.6.10/package/package.json not in flight; writing
+665 verbose afterAdd /Users/kesarwat/.npm/type-is/1.6.10/package/package.json written
+666 silly fetchNamedPackageData mime-types
+667 silly mapToRegistry name mime-types
+668 silly mapToRegistry using default registry
+669 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+670 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types
+671 silly fetchNamedPackageData negotiator
+672 silly mapToRegistry name negotiator
+673 silly mapToRegistry using default registry
+674 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+675 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator
+676 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types
+677 verbose request no auth needed
+678 info attempt registry request try #1 at 15:16:08
+679 verbose etag 8eac2a677ad09f54702acb10501e87795fb567d0
+680 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types
+681 verbose request uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator
+682 verbose request no auth needed
+683 info attempt registry request try #1 at 15:16:08
+684 verbose etag 6859810e69498db173b5ca683ef0ca2271208463
+685 http request GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator
+686 http 304 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator
+687 verbose headers { server: 'Artifactory/4.3.2',
+687 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+687 verbose headers   date: 'Wed, 13 Jan 2016 09:46:08 GMT' }
+688 silly get cb [ 304,
+688 silly get   { server: 'Artifactory/4.3.2',
+688 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+688 silly get     date: 'Wed, 13 Jan 2016 09:46:08 GMT' } ]
+689 verbose etag http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator from cache
+690 verbose get saving negotiator to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator/.cache.json
+691 silly resolveWithNewModule negotiator@0.5.3 checking installable status
+692 silly cache add args [ 'negotiator@0.5.3', null ]
+693 verbose cache add spec negotiator@0.5.3
+694 silly cache add parsed spec { raw: 'negotiator@0.5.3',
+694 silly cache add   scope: null,
+694 silly cache add   name: 'negotiator',
+694 silly cache add   rawSpec: '0.5.3',
+694 silly cache add   spec: '0.5.3',
+694 silly cache add   type: 'version' }
+695 silly addNamed negotiator@0.5.3
+696 verbose addNamed "0.5.3" is a plain semver version for negotiator
+697 silly mapToRegistry name negotiator
+698 silly mapToRegistry using default registry
+699 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+700 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator
+701 verbose addNameVersion registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator not in flight; fetching
+702 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/negotiator not expired, no request
+703 silly cache afterAdd negotiator@0.5.3
+704 verbose afterAdd /Users/kesarwat/.npm/negotiator/0.5.3/package/package.json not in flight; writing
+705 verbose afterAdd /Users/kesarwat/.npm/negotiator/0.5.3/package/package.json written
+706 http 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types
+707 verbose headers { server: 'Artifactory/4.3.2',
+707 verbose headers   'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+707 verbose headers   etag: 'b86556c9f1fff24ed2f260fa18d1e566a0b60ddf',
+707 verbose headers   'content-type': 'application/json',
+707 verbose headers   'transfer-encoding': 'chunked',
+707 verbose headers   date: 'Wed, 13 Jan 2016 09:46:08 GMT' }
+708 silly get cb [ 200,
+708 silly get   { server: 'Artifactory/4.3.2',
+708 silly get     'x-artifactory-id': 'f905a35bccc99238:-55d059dc:1521ca59b72:-8000',
+708 silly get     etag: 'b86556c9f1fff24ed2f260fa18d1e566a0b60ddf',
+708 silly get     'content-type': 'application/json',
+708 silly get     'transfer-encoding': 'chunked',
+708 silly get     date: 'Wed, 13 Jan 2016 09:46:08 GMT' } ]
+709 verbose get saving mime-types to /Users/kesarwat/.npm/artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types/.cache.json
+710 silly resolveWithNewModule mime-types@2.1.9 checking installable status
+711 silly cache add args [ 'mime-types@~2.1.6', null ]
+712 verbose cache add spec mime-types@~2.1.6
+713 silly cache add parsed spec { raw: 'mime-types@~2.1.6',
+713 silly cache add   scope: null,
+713 silly cache add   name: 'mime-types',
+713 silly cache add   rawSpec: '~2.1.6',
+713 silly cache add   spec: '>=2.1.6 <2.2.0',
+713 silly cache add   type: 'range' }
+714 silly addNamed mime-types@>=2.1.6 <2.2.0
+715 verbose addNamed ">=2.1.6 <2.2.0" is a valid semver range for mime-types
+716 silly addNameRange { name: 'mime-types', range: '>=2.1.6 <2.2.0', hasData: false }
+717 silly mapToRegistry name mime-types
+718 silly mapToRegistry using default registry
+719 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+720 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types
+721 verbose addNameRange registry:http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types not in flight; fetching
+722 verbose get http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types not expired, no request
+723 silly addNameRange number 2 { name: 'mime-types', range: '>=2.1.6 <2.2.0', hasData: true }
+724 silly addNameRange versions [ 'mime-types',
+724 silly addNameRange   [ '0.1.0',
+724 silly addNameRange     '2.1.9',
+724 silly addNameRange     '2.0.0',
+724 silly addNameRange     '2.0.1',
+724 silly addNameRange     '2.1.0',
+724 silly addNameRange     '2.0.8',
+724 silly addNameRange     '2.0.10',
+724 silly addNameRange     '2.1.7',
+724 silly addNameRange     '2.0.9',
+724 silly addNameRange     '2.1.8',
+724 silly addNameRange     '2.0.6',
+724 silly addNameRange     '2.0.12',
+724 silly addNameRange     '2.1.5',
+724 silly addNameRange     '2.0.7',
+724 silly addNameRange     '2.0.11',
+724 silly addNameRange     '2.1.6',
+724 silly addNameRange     '2.0.4',
+724 silly addNameRange     '2.0.14',
+724 silly addNameRange     '2.1.3',
+724 silly addNameRange     '2.0.5',
+724 silly addNameRange     '2.0.13',
+724 silly addNameRange     '2.1.4',
+724 silly addNameRange     '2.0.2',
+724 silly addNameRange     '2.1.1',
+724 silly addNameRange     '2.0.3',
+724 silly addNameRange     '2.1.2',
+724 silly addNameRange     '1.0.0',
+724 silly addNameRange     '1.0.1',
+724 silly addNameRange     '1.0.2' ] ]
+725 silly addNamed mime-types@2.1.9
+726 verbose addNamed "2.1.9" is a plain semver version for mime-types
+727 silly mapToRegistry name mime-types
+728 silly mapToRegistry using default registry
+729 silly mapToRegistry registry http://artifactory.cobalt.com/artifactory/api/npm/npm-repo
+730 silly mapToRegistry uri http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types
+731 verbose addRemoteTarball http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types/-/mime-types-2.1.9.tgz not in flight; adding
+732 verbose addRemoteTarball [ 'http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types/-/mime-types-2.1.9.tgz',
+732 verbose addRemoteTarball   'dfb396764b5fdf75be34b1f4104bc3687fb635f8' ]
+733 info retry fetch attempt 1 at 15:16:10
+734 info attempt registry request try #1 at 15:16:10
+735 http fetch GET http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types/-/mime-types-2.1.9.tgz
+736 http fetch 200 http://artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types/-/mime-types-2.1.9.tgz
+737 silly fetchAndShaCheck shasum dfb396764b5fdf75be34b1f4104bc3687fb635f8
+738 verbose addTmpTarball /var/folders/kv/tfzkzkcs7ks10cx_4gb6f0z4bg9vyb/T/npm-2152-7d7d84a3/artifactory.cobalt.com/artifactory/api/npm/npm-repo/mime-types/-/mime-types-2.1.9.tgz not in flight; adding
+739 verbose addTmpTarball already have metadata; skipping unpack for mime-types@2.1.9
+740 silly rollbackFailedOptional Starting
+741 silly rollbackFailedOptional Finishing
+742 silly runTopLevelLifecycles Starting
+743 silly runTopLevelLifecycles Finishing
+744 silly install printInstalled
+745 verbose stack Error: EACCES, mkdir '/Users/kesarwat/.npm/mime-types/2.1.9'
+746 verbose cwd /Users/kesarwat/WebstormProjects/nodejsDemo
+747 error Darwin 14.4.0
+748 error argv "node" "/usr/local/bin/npm" "install" "express"
+749 error node v0.10.36
+750 error npm  v3.5.2
+751 error path /Users/kesarwat/.npm/mime-types/2.1.9
+752 error code EACCES
+753 error errno 3
+754 error Error: EACCES, mkdir '/Users/kesarwat/.npm/mime-types/2.1.9'
+754 error  { [Error: EACCES, mkdir '/Users/kesarwat/.npm/mime-types/2.1.9']
+754 error   errno: 3,
+754 error   code: 'EACCES',
+754 error   path: '/Users/kesarwat/.npm/mime-types/2.1.9',
+754 error   parent: 'accepts' }
+755 error Please try running this command again as root/Administrator.
+756 verbose exit [ 3, true ]
